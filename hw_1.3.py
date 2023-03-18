@@ -1,8 +1,6 @@
 name = "Иван"
-print(name + ", введи число n")
+print(f"{name}, введи число n")
 a = int(input('n:'))
-
-print(a + a * a + a * a * a)
-
-
-
+t1 = a * a
+t2 = a * a * a
+print(a + t1 + t2)

@@ -1,9 +1,9 @@
 n = int(input('Введите целое положительное число: '))
-maxDigit = 0
+max_digit = 0
 while n >= 1:
-  lastDigit = n % 10
-  if lastDigit > maxDigit:
-      maxDigit = lastDigit
-  n = int((n - lastDigit) / 10)
+  last_digit = n % 10
+  if last_digit > max_digit:
+      max_digit = last_digit
+  n = int((n - last_digit) / 10)
 
-print(f'Самая большая цифра: {maxDigit}')
+print(f'Самая большая цифра: {max_digit}')
